@@ -240,3 +240,32 @@ margin-bottom: 0.25em;
     color: #00ad6a;
   
 }
+/* FAQ */
+
+#faq{
+    padding: 5em 0;
+}
+
+.faq__row{
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+.faq__header{
+    font-size: 3rem;
+}
+.faq__questions{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+}
+.faq__question--header{
+    font-size: 1.25rem;
+    padding-bottom: 0.3em;
+}
+.faq__question--answer{
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
